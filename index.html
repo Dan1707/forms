@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <fieldset class="block">
+      <form class="block__container">
+        <input
+          type="text"
+          name="user__name"
+          id="user__name"
+          class="block__input_text"
+          placeholder="Ваше ім'я"
+        />
+        <br />
+        <input
+          type="email"
+          name="user__email"
+          id="user__email"
+          class="block__input_text"
+          placeholder="Ваша ел.пошта"
+        />
+        <br />
+        <input
+          type="password"
+          name="user__password"
+          id="user__password"
+          class="block__input_text"
+          placeholder="Ваш пароль"
+        />
+        <br />
+        <label class="block__input_radio">
+          <input type="radio" name="user__gender" id="user__gender" />
+          Чоловік
+        </label>
+        <br />
+        <label class="block__input_radio">
+          <input type="radio" name="user__gender" id="user__gender" />
+          Жінка
+        </label>
+        <br />
+        <label class="block__input_date">
+          Дата народження
+          <input type="date" name="user__date" id="user__date" />
+        </label>
+        <br />
+        <label class="block__btn_container">
+          <input type="reset" value="Видалити" class="block__input_btn reset" />
+          <input
+            type="submit"
+            value="Надіслати"
+            class="block__input_btn submit"
+          />
+        </label>
+      </form>
+    </fieldset>
+  </body>
+</html>
